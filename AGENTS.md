@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Vehicle catalog, example listings, SEO path helper (`financingPath`) and analytics `track()` stub live in `src/lib/vehicles.ts`; why: single seam to swap for real inventory API, future /financiamiento/:brand/:model routes and GA4.
